@@ -186,7 +186,20 @@ export default function Hero(){
 
            
             <p className="bg-purple-400/20 rounded-full p-2 text-sm">Full Stack Developer</p>
-            <div className="flex gap-2 text-5xl md:text-6xl font-bold tracking-tight">
+            <div className="
+                    flex flex-col
+                    md:flex-row
+
+                    items-center
+
+                    gap-2
+
+                    text-5xl
+                    md:text-6xl
+
+                    font-bold
+                    tracking-tight"
+            >
                 <h1>Νέστωρ</h1>
                 <h1 className="text-purple-400">Θεοδωρίδης</h1>
             </div>
