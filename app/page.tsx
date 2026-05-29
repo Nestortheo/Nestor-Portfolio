@@ -25,6 +25,7 @@ import {
 import { Database } from "lucide-react"
 
 import { sendContact } from "@/lib/clientApi/contact-api";
+import Hero from "./components/hero";
 
 export default function Home() {
 
@@ -58,108 +59,7 @@ export default function Home() {
     <div>
       <div className="max-w-6xl mx-auto flex flex-col gap-12">   
 
-        <section
-          id="hero"
-          className="
-            min-h-[85vh]
-            flex flex-col lg:flex-row
-            items-start
-            gap-4
-            pt-24
-          "
-        >
-          {/* Left Side */}
-          <div className="w-full lg:w-2/5 flex flex-col gap-6">
-
-             {/* Small Badge */} 
-            <div className="w-fit rounded-full border border-purple-500/30 bg-purple-500/10 px-4 py-2">
-              <p className="text-sm text-purple-300">
-                Frontend / Full Stack Developer
-              </p>
-            </div>
-            
-            {/* Main Headeing */}
-            <div className="flex flex-col gap-2">
-              <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-                Νέστωρ
-              </h1>
-              <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-purple-400">
-                Θεοδωρίδης
-              </h1>
-            </div>
-
-            {/* Description */}
-            <p className="max-w-sm text-lg text-gray-400 leading-relaxed">
-              I build modern and professional web experiences for businesses and professionals
-            </p>
-
-            {/* Buttons */}
-            <div className="flex items-center gap-4 pt-2">
-                <a
-                href="/#projects"
-                className="
-                  rounded-xl bg-purple-500 px-6 py-3
-                  font-medium text-white transition
-                  hover:bg-purple-400
-                "
-                >
-                  View Projects
-                </a>
-
-              <a
-                href="/#contact"
-                className="
-                  rounded-xl border border-white/10
-                  px-6 py-3 font-medium text-white
-                  transition hover:border-white/30
-                "
-              >
-                Contact Me
-              </a>
-            </div>
-
-          </div>
-          
-          {/*Right Side */}
-          <div className="w-full lg:w-3/5 flex justify-center">
-              <div
-              className="
-                w-full max-w-4xl
-                lg:scale-105
-                rounded-xl
-                overflow-hidden
-                border border-neutral-700
-                bg-neutral-600 backdrop-blur-md
-                shadow-2xl
-              "
-            >
-
-              {/* Fake Browser Top Bar */}
-              <div
-                className="
-                  flex items-center gap-2
-                  border-b border-white/10
-                  bg-neutral-800
-                  px-4 py-5
-                "
-              >
-                <div className="h-3 w-3 rounded-full bg-red-400"></div>
-                <div className="h-3 w-3 rounded-full bg-yellow-400"></div>
-                <div className="h-3 w-3 rounded-full bg-green-400"></div>
-              </div>
-
-              {/* Website Screenshot */}
-              <Image
-                src="/hero.png"
-                alt="Psychologist Website Preview"
-                width={1200}
-                height={800}
-                className="w-full object-cover"
-              />
-
-            </div>
-          </div>
-        </section>
+        <Hero />
      
         <section
           id="projects"
@@ -168,7 +68,7 @@ export default function Home() {
             py-24
           "
         >
-          <div className="flex flex-col gap-12">
+          <div className="flex flex-col gap-12 items-center">
 
             {/* Section Header */}
             <div className="flex flex-col gap-4">
@@ -176,18 +76,6 @@ export default function Home() {
               <h2 className="text-4xl font-bold text-purple-400">
                 My Projects
               </h2>
-
-              <p
-                className="
-                  text-gray-400
-                  max-w-2xl
-                  leading-relaxed
-                "
-              >
-                A selection of projects I’ve built focusing on
-                modern UI, responsive design and professional
-                web experiences.
-              </p>
 
             </div>
 
@@ -395,11 +283,11 @@ export default function Home() {
                 p-8 lg:p-10
                 border rounded-xl p-3 border-purple-500/20
                 bg-purple-500/[0.02]
-                flex flex-col gap-6
+                flex flex-col 
               ">
 
                 
-                <h3 className="text-sm text-purple-400 tracking-wide ">TECHNOLOGIES I WORK WITH</h3>
+                <h3 className="text-sm text-purple-400 tracking-wide mb-8">TECHNOLOGIES I WORK WITH</h3>
                 
 
                 <div className="
@@ -407,7 +295,8 @@ export default function Home() {
                   justify-between
                   items-center
                   flex-wrap
-                  gap-6 "
+                  gap-6
+                  "
                 >
 
                   <div className="flex flex-col items-center gap-2 min-w-[70px]">
