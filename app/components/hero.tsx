@@ -279,8 +279,8 @@ export default function Hero(){
                     <ArrowUpRight size={22}/>
                 </a>
             </div>
-
-        <div className="flex flex-wrap items-center justify-center gap-6">
+        
+        <div className="flex flex-wrap justify-center gap-4">
 
                 {/*GitHub*/}
                 <a 
@@ -309,7 +309,7 @@ export default function Hero(){
                     <span>Email</span>
                 </a>
 
-                <div className="h-6 w-px bg-purple-600/50" />
+                
 
             </div>
 
