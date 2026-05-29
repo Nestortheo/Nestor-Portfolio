@@ -51,6 +51,10 @@ export default function Hero(){
 
                     bg-purple-300
 
+                    shadow-[0_0_12px_rgba(196,181,253,0.8)]
+
+                    animate-pulse
+
                     opacity-60
 
                     -z-10
