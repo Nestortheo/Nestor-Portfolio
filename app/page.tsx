@@ -91,8 +91,8 @@ export default function Home() {
                   "Django",
                   "API"
                 ]}
-                demoLink="https://..."
-                githubLink="https://.."
+                demoLink="https://quartet-frontend.vercel.app/"
+                githubLink="https://github.com/Nestortheo/quartet-frontend"
               />
             <ProjectCard 
                 title="Psychologist WebSite"
@@ -107,8 +107,8 @@ export default function Home() {
                   "Django",
                   "Responsive"
                 ]}
-                demoLink="https://..."
-                githubLink="https://.."
+                demoLink="https://www.dimitrismichoudis.gr/"
+                githubLink="https://github.com/Nestortheo/psych-site"
             />
 
             </div>

@@ -222,6 +222,8 @@ export default function ProjectCard({
 
         <a
           href={demoLink}
+          target="_blank"
+          rel="noopener noreferrer"
           className="
             rounded-xl
 
@@ -241,6 +243,8 @@ export default function ProjectCard({
 
         <a
           href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
           className="
             rounded-xl
 

@@ -284,7 +284,9 @@ export default function Hero(){
 
                 {/*GitHub*/}
                 <a 
-                href="#"
+                href="https://github.com/Nestortheo"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex gap-2 items-center justify-center hover:text-purple-400">
                     <SiGithub size={28} />
                     <span>GitHub</span>
@@ -294,7 +296,9 @@ export default function Hero(){
                 <div className="h-6 w-px bg-purple-600/50" />
 
                 <a 
-                href="#"
+                href="https://www.linkedin.com/in/nestor-theodoridis-480032228/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex gap-2 items-center justify-center hover:text-purple-400">
                     <  FaLinkedin size={28} />
                     <span>LinkedIn</span>
@@ -303,7 +307,9 @@ export default function Hero(){
                 <div className="h-6 w-px bg-purple-600/50" />
 
                 <a 
-                href="#"
+                href="mailto:nestorastheo@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex gap-2 items-center justify-center hover:text-purple-400">
                     <Mail size={28} />
                     <span>Email</span>

@@ -49,7 +49,9 @@ export default function Footer(){
 
                     {/*GitHub */}
                     <a  
-                         href="#"
+                        href="https://github.com/Nestortheo"
+                        target="_blank"
+                        rel="noopener noreferrer"
                          className="
                             w-[320px]
 
@@ -75,7 +77,10 @@ export default function Footer(){
 
                     {/*LinkedIn*/}
                     <a
-                        href="#"
+                        href="https://www.linkedin.com/in/nestor-theodoridis-480032228/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        
                         className="
                             w-[320px]
 
