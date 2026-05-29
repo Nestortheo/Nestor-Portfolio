@@ -228,13 +228,15 @@ export default function Hero(){
                 </span>.
             </p>
 
-            <div className="flex gap-4 ">
+            <div className="flex  sm:flex-row gap-4 ">
                 <a 
                 href="#projects"
                 className="
                     flex items-center justify-center
+                    
+                    sm:w-[180px]
 
-                    w-[180px]
+                    w-[150px]
 
                     p-3
                     gap-6
@@ -258,7 +260,9 @@ export default function Hero(){
                 className="
                     flex items-center justify-center
 
-                    w-[180px]
+                    sm:w-[180px]
+
+                    w-[150px]
 
                     p-3
                     gap-6
@@ -276,7 +280,7 @@ export default function Hero(){
                 </a>
             </div>
 
-        <div className="flex items-center justify-center gap-6">
+        <div className="flex flex-wrap items-center justify-center gap-6">
 
                 {/*GitHub*/}
                 <a 
