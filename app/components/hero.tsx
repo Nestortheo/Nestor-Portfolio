@@ -227,14 +227,14 @@ export default function Hero(){
                 </span>.
             </p>
 
-            <div className="flex  sm:flex-row gap-4 ">
+            <div className="flex sm:flex-row gap-4 ">
                 <a 
                 href="#projects"
                 className="
                     flex items-center justify-center
                     
+                    w-[160px]
                     h-[55px]
-                   
                     md:w-[180px]
 
                     gap-6
@@ -258,7 +258,7 @@ export default function Hero(){
                 className="
                     flex items-center justify-center
 
-                    p-2
+                    w-[160px]
                     h-[55px]
                     sm:w-[180px]
 
@@ -285,7 +285,7 @@ export default function Hero(){
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-2 items-center justify-center hover:text-purple-400">
-                    <SiGithub size={28} />
+                    <SiGithub className="w-6 h-6 sm:w-7 sm:h-7" />
                     <span>GitHub</span>
                 </a>
 
@@ -297,7 +297,7 @@ export default function Hero(){
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-2 items-center justify-center hover:text-purple-400">
-                    <  FaLinkedin size={28} />
+                    <FaLinkedin className="w-6 h-6 sm:w-7 sm:h-7" />
                     <span>LinkedIn</span>
                 </a>
 
@@ -308,7 +308,7 @@ export default function Hero(){
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-2 items-center justify-center hover:text-purple-400">
-                    <Mail size={28} />
+                    <Mail className="w-6 h-6 sm:w-7 sm:h-7" />
                     <span>Email</span>
                 </a>
 

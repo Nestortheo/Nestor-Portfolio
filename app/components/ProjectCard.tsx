@@ -24,6 +24,8 @@ export default function ProjectCard({
       relative
 
       p-5
+      mx-6
+      md:mx-0
 
       rounded-3xl
       border border-white/5
@@ -182,8 +184,6 @@ export default function ProjectCard({
       <div
         className="
           flex
-          flex-wrap
-
           gap-3
         "
       >
@@ -212,8 +212,7 @@ export default function ProjectCard({
       <div
         className="
           flex
-          flex-wrap
-
+        
           gap-4
 
           pt-2
@@ -226,6 +225,13 @@ export default function ProjectCard({
           rel="noopener noreferrer"
           className="
             rounded-xl
+
+            flex-1
+            min-w-[130px]
+
+            h-[52px]
+            
+            flex items-center justify-center
 
             bg-purple-600
 
@@ -248,6 +254,14 @@ export default function ProjectCard({
           className="
             rounded-xl
 
+            
+            flex-1
+            min-w-[130px]
+
+            h-[52px]
+
+            flex items-center justify-center
+
             border border-white/10
 
             px-6 py-3
@@ -259,7 +273,7 @@ export default function ProjectCard({
             hover:border-white/30
           "
         >
-          Github
+          GitHub
         </a>
 
       </div>

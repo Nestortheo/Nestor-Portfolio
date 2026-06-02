@@ -132,7 +132,7 @@ export default function Home() {
             <div 
               className="
                 lg:w-2/5
-                p-8 lg:p-10
+                p-2 lg:p-10
                 flex flex-col justify-center gap-4
                 
                 ">
@@ -224,14 +224,15 @@ export default function Home() {
                 <div className="flex gap-4">
                   <div className="
                       w-28
-                      p-3 
+                      p-2
                       border rounded-xl 
                       border-purple-500/20
                       bg-purple-500/5
-                      flex flex-col items-center
+                      flex flex-col items-center justify-center
+                      
                   ">
                       <h3 className="font-semibold text-xl text-purple-400 mb-1">2+</h3>
-                      <p className="text-sm text-neutral-300">Real Projects</p>
+                      <p className="text-sm text-neutral-300">Projects</p>
                       <p className="text-sm text-neutral-300">Delivered</p>
                   </div>
 
@@ -241,7 +242,7 @@ export default function Home() {
                     border rounded-xl
                     border-purple-500/20
                     bg-purple-500/5
-                    flex flex-col items-center
+                    flex flex-col items-center justify-center
                   ">
                     <h3 className="font-semibold text-xl text-purple-400 mb-1">1+</h3>
                     <p className="text-sm text-neutral-300">Years of</p>
@@ -254,11 +255,11 @@ export default function Home() {
                     border rounded-xl
                     border-purple-500/20
                     bg-purple-500/5
-                    flex flex-col items-center
+                    flex flex-col items-center justify-center
                   ">
                     <h3 className="font-semibold text-xl text-purple-400 mb-1">100%</h3>
-                      <p className="text-sm text-neutral-300">Dedication to</p>
                       <p className="text-sm text-neutral-300">Quality</p>
+                      <p className="text-sm text-neutral-300">Driven</p>
                   </div>
                 </div>
             </div>
@@ -335,7 +336,7 @@ export default function Home() {
         <section id="contact" className="scroll-mt-24">
           <div 
             className="
-                p-5
+                p-2 md:p-10
                 border border-white/5
                 rounded-3xl
                 bg-purple-900/5
