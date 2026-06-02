@@ -25,7 +25,7 @@ export default function Hero(){
             id="hero"
             className="
                 relative
-                mt-34
+                md:mt-34
                 min-h-screen
 
                 flex flex-col 
@@ -188,8 +188,6 @@ export default function Hero(){
             <p className="bg-purple-400/20 rounded-full p-2 text-sm">Full Stack Developer</p>
             <div className="
                     flex flex-col
-                    md:flex-row
-
                     items-center
 
                     gap-2
@@ -208,7 +206,8 @@ export default function Hero(){
 
             <p
                 className="
-                text-xl
+                text-md
+                md:text-2xl
                 text-neutral-300
                 text-center
                 leading-relaxed
@@ -234,11 +233,10 @@ export default function Hero(){
                 className="
                     flex items-center justify-center
                     
-                    sm:w-[180px]
+                    h-[55px]
+                   
+                    md:w-[180px]
 
-                    w-[150px]
-
-                    p-3
                     gap-6
 
                     border border-white/10
@@ -260,11 +258,10 @@ export default function Hero(){
                 className="
                     flex items-center justify-center
 
+                    p-2
+                    h-[55px]
                     sm:w-[180px]
 
-                    w-[150px]
-
-                    p-3
                     gap-6
 
                     border border-purple-700/50
