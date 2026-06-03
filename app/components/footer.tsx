@@ -27,7 +27,7 @@ export default function Footer(){
                 <div className="flex flex-col gap-3">
 
                     <div>
-                        <h3 className="text-xl font-semibold tracking-light">Νέστωρ Θεοδωρίδης</h3>
+                        <h3 className="text-xl font-semibold tracking-light">Nestor Theodoridis</h3>
                         <p className="text-sm text-purple-400 ">Full Stack Developer</p>
                     </div>
                     <p className="
@@ -146,7 +146,7 @@ export default function Footer(){
                 "
             >   
                 {/*RIGHT */}
-                <p className="text-neutral-500 text-sm">© 2026 Νέστωρ Θεοδωρίδης. All rights reserved.</p>
+                <p className="text-neutral-500 text-sm">© 2026 Nestor Theodoridis. All rights reserved.</p>
                 
                 {/*LEFT*/}
                 <div className="flex items-center gap-2">

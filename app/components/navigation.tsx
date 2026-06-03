@@ -34,17 +34,38 @@ export default function Header(){
 
                     {/* Desktop links */}
                     <nav className="hidden md:flex items-center gap-8">
-                        <a href="/#projects ">
+                        <a 
+                            href="/#projects "
+                            className="
+                                hover:text-purple-400
+                                transition-colors
+                                duration-200
+                            "
+                        >
                             <span>
                                 <h2>Projects</h2>
                             </span>
                         </a>
-                        <a href="/#about">
+                         <a 
+                            href="/#about "
+                            className="
+                                hover:text-purple-400
+                                transition-colors
+                                duration-200
+                            "
+                        >
                             <span>
                                 <h2>About</h2>
                             </span>
                         </a>
-                        <a href="/#contact">
+                         <a 
+                            href="/#contact"
+                            className="
+                                hover:text-purple-400
+                                transition-colors
+                                duration-200
+                            "
+                        >
                             <span>
                                 <h2>Contact</h2>
                             </span>
@@ -61,21 +82,48 @@ export default function Header(){
 
                 {/*Mobile Dropdown Bar Menu */}
                 {menuOpen && (
-                    <div className="md:hidden flex flex-col gap-2 p-4 bg-gray-700 border-t border-gray-500">
+                    <div className="w-full md:hidden flex flex-col gap-2 p-4 bg-[#0f0f19]/90 border-t border-purple-500/20">
                         <a 
                           href="/#projects" 
+                          className="
+                            px-3 py-3
+                            rounded-lg
+
+                            hover:text-purple-400
+                            hover:bg-purple-500/10
+
+                            transition-colors
+                        "
                           onClick={closeMenu}
                         >
                             <h2>Projects</h2>
                         </a>
                         <a 
                           href="/#about"
+                           className="
+                            px-3 py-3
+                            rounded-lg
+
+                            hover:text-purple-400
+                            hover:bg-purple-500/10
+
+                            transition-colors
+                        "
                           onClick={closeMenu}
                         >
                             <h2>About</h2>
                         </a>
                         <a 
                           href="/#contact"
+                           className="
+                            px-3 py-3
+                            rounded-lg
+
+                            hover:text-purple-400
+                            hover:bg-purple-500/10
+
+                            transition-colors
+                        "
                           onClick={closeMenu}
                           >
                             <h2>Contact</h2>

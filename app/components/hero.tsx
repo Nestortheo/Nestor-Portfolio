@@ -162,7 +162,7 @@ export default function Hero(){
                     -z-10
                 "
             />
-             {/* Star 1 */}
+             {/* Star 6 */}
             <div
                 className="
                     absolute
@@ -198,8 +198,8 @@ export default function Hero(){
                     font-bold
                     tracking-tight"
             >
-                <h1>Νέστωρ</h1>
-                <h1 className="text-purple-400">Θεοδωρίδης</h1>
+                <h1>Nestor</h1>
+                <h1 className="text-purple-400">Theodoridis</h1>
             </div>
             
             <div className="border border-purple-400 w-[60px]"/>
