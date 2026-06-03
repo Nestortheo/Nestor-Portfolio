@@ -53,7 +53,9 @@ export default function Footer(){
                         target="_blank"
                         rel="noopener noreferrer"
                          className="
-                            w-[320px]
+                            w-full
+                            lg:w-[320px]
+                           
 
                             flex
                             items-center
@@ -82,7 +84,8 @@ export default function Footer(){
                         rel="noopener noreferrer"
                         
                         className="
-                            w-[320px]
+                            w-full
+                            lg:w-[320px]
 
                             flex items-center justify-between
 
@@ -103,9 +106,12 @@ export default function Footer(){
 
                     {/*Mail*/}
                     <a
-                        href="#"
+                        href="mailto:nestorastheo@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="
-                            w-[320px]
+                            w-full
+                            lg:w-[320px]
 
                             flex items-center justify-between
 
