@@ -301,27 +301,27 @@ export default function Home() {
                 >
 
                   <div className="flex flex-col items-center gap-2 min-w-[70px]">
-                    <SiReact className="text-cyan-400" size={34}/>
+                    <SiReact className="text-cyan-400" size={34} aria-hidden="true"/>
                     <span className="text-sm text-neutral-300">React</span>
                   </div>
 
                   <div className="flex flex-col items-center gap-2 min-w-[70px]">
-                    <SiDjango className="text-green-400" size={34}/>
+                    <SiDjango className="text-green-400" size={34} aria-hidden="true"/>
                     <span className="text-sm text-neutral-300">Django</span>
                   </div>
 
                   <div className="flex flex-col items-center  gap-2 min-w-[70px]">
-                    <SiTailwindcss className="text-sky-400" size={34}/>
+                    <SiTailwindcss className="text-sky-400" size={34} aria-hidden="true"/>
                     <span className="text-sm text-neutral-300">Tailwind</span>
                   </div>
 
                   <div className="flex flex-col items-center gap-2 min-w-[70px]">
-                    <SiJavascript className="text-yellow-400" size={34} />
+                    <SiJavascript className="text-yellow-400" size={34} aria-hidden="true"/>
                     <span className="text-sm text-neutral-300">JavaScript</span>
                   </div>
 
                   <div className="flex flex-col items-center gap-2 min-w-[70px]">
-                    <Database className="text-purple-400" size={34} />
+                    <Database className="text-purple-400" size={34} aria-hidden="true"/>
                     <span className="text-sm text-neutral-300">REST APIs</span>
                   </div>
 
