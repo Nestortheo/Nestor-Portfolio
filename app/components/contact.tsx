@@ -1,5 +1,5 @@
 "use client";
-import Form from "./form";
+import Form from "./Form";
 import { useState } from "react";
 import { sendContact } from "@/lib/clientApi/contact-api";
 

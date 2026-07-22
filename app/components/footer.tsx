@@ -24,21 +24,21 @@ export default function Footer(){
                     justify-between
                 ">
                 {/*LEFT*/}
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-4">
 
-                    <div>
-                        <h3 className="text-xl font-semibold tracking-light">Nestor Theodoridis</h3>
-                        <p className="text-sm text-purple-400 ">Full Stack Developer</p>
+                    <div className="flex flex-col gap-1">
+                        <h3 className="text-2xl font-semibold tracking-tight">Nestor Theodoridis</h3>
+                        <p className="text-sm text-purple-400 tracking-tighter ">Full Stack Developer</p>
                     </div>
                     <p className="
                         max-w-sm
                         text-sm
                         text-neutral-400
                         leading-relaxed
+                        tracking-wider
                     ">
-                        Building modern, responsive and
-                        user-focused web experiences with
-                        React, Next.js and Django.
+                        I build responsive websites and full stack web applications
+                        using React, Next.js and Django.
                     </p>
 
                 </div>
@@ -53,6 +53,7 @@ export default function Footer(){
                         target="_blank"
                         rel="noopener noreferrer"
                          className="
+                            group
                             w-full
                             lg:w-[320px]
                            
@@ -74,7 +75,14 @@ export default function Footer(){
                             <FaGithub size={22} />
                             <p>GitHub</p>
                         </div>
-                         <ArrowRight size={18}/>
+                        <ArrowRight
+                            size={18}
+                            className="
+                                transition-transform
+                                duration-300
+                                group-hover:translate-x-1
+                            "
+                        />
                     </a>
 
                     {/*LinkedIn*/}
@@ -84,6 +92,7 @@ export default function Footer(){
                         rel="noopener noreferrer"
                         
                         className="
+                            group
                             w-full
                             lg:w-[320px]
 
@@ -101,7 +110,14 @@ export default function Footer(){
                             <FaLinkedin  size={22}/>
                             <p>LinkedIn</p>
                         </div>
-                        <ArrowRight size={18}/>
+                        <ArrowRight
+                            size={18}
+                            className="
+                                transition-transform
+                                duration-300
+                                group-hover:translate-x-1
+                            "
+                        />
                     </a>
 
                     {/*Mail*/}
@@ -110,6 +126,7 @@ export default function Footer(){
                         target="_blank"
                         rel="noopener noreferrer"
                         className="
+                            group
                             w-full
                             lg:w-[320px]
 
@@ -127,7 +144,14 @@ export default function Footer(){
                             <Mail size={22}/>
                             <p>Email</p>
                         </div>
-                        <ArrowRight size={18} />
+                        <ArrowRight
+                            size={18}
+                            className="
+                                transition-transform
+                                duration-300
+                                group-hover:translate-x-1
+                            "
+                        />
                     </a>
                 </div>
                 

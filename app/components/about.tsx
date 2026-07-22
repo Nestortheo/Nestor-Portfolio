@@ -2,7 +2,7 @@ import {
   SiReact,
   SiDjango,
   SiTailwindcss,
-  SiJavascript,
+  SiNextdotjs,
 } from "react-icons/si"
 
 import {
@@ -37,17 +37,19 @@ export default function About(){
               className="
                 lg:w-2/5
                 p-2 lg:p-10
-                flex flex-col justify-center gap-4
+                flex flex-col justify-center gap-8
                 
                 ">
               <h2 className="text-sm text-purple-400">ABOUT ME</h2>
               <div>
-                <p className="text-xl md:text-2xl leading-tight">I build modern, responsive web applications with a focus</p>
-                <p className="text-xl md:text-2xl text-purple-400 ">real-world impact</p>
+                <p className="text-xl md:text-2xl leading-tight">I build responsive websites that help businesses establish a</p>
+                <p className="text-xl md:text-2xl text-purple-400 ">professional online presence.</p>
               </div>
-              <p className="text-sm md:text-base text-neutral-400 leading-relaxed">I'm a full stack developer who enjoys turning ideas into clean, functional
-                and user-friendly solutions. I work with modern technologies and build projects that solve
-                real problems and deliver real value
+              <p className="text-sm md:text-base text-neutral-400 leading-relaxed">
+                  I'm a Full Stack Web Developer with a Bachelor's degree from the
+                  University of Macedonia. I build responsive websites and web
+                  applications using React, Next.js and Django, developing both
+                  frontend interfaces and backend systems.
               </p>
               
               <div className="flex gap-4 items-start">
@@ -66,15 +68,14 @@ export default function About(){
                   />
                 </div>
 
-                <div>
+                <div className="flex flex-col gap-2">
                   <h3 className="font-semibold">
-                    Clean & Modern Code
+                    Frontend Development
                   </h3>
 
                   <p className="text-gray-400">
-                    I write maintainable code with
-                    best practices and attention
-                    to detail.
+                    I build responsive frontend interfaces using React and Next.js for
+                    fast, accessible and user-friendly websites.
                   </p>
                 </div>
 
@@ -89,14 +90,14 @@ export default function About(){
                     />
                   </div>
 
-                  <div>
+                  <div className="flex flex-col gap-2">
                     <h3 className="font-semibold">
-                      User Focused Design
+                       Backend Development
                     </h3>
 
                     <p className="text-gray-400">
-                      I build interfaces that are intuitive, accessible
-                      and crafted for great user experience.
+                      I build backend systems using Django, developing REST APIs,
+                      authentication and database-driven functionality.
                     </p>
                   </div>
 
@@ -111,21 +112,22 @@ export default function About(){
                     />
                   </div>
 
-                  <div>
+                  <div className="flex flex-col gap-2">
                     <h2 className="font-semibold">
-                      Real World Projects
+                      Full Stack Applications
                     </h2>
 
                     <p className="text-gray-400">
-                      I love working on meaningful projects that make
-                      an impact and solve real needs
+                       I combine frontend and backend technologies to build complete web
+                      applications, from responsive interfaces to database-driven systems.
                     </p>
                   </div>
 
                 </div>
 
                 {/* Border with Stats */}
-                <div className="flex gap-4">
+                {/*
+                <div className="flex gap-6 mt-2">
                   <div className="
                       w-28
                       p-2
@@ -133,6 +135,7 @@ export default function About(){
                       border-purple-500/20
                       bg-purple-500/5
                       flex flex-col items-center justify-center
+                    
                       
                   ">
                       <h3 className="font-semibold text-xl text-purple-400 mb-1">2+</h3>
@@ -166,13 +169,16 @@ export default function About(){
                       <p className="text-sm text-neutral-300">Driven</p>
                   </div>
                 </div>
+                  */}
             </div>
+
+              
 
             {/* Right Side */}
             <div className="
               lg:w-3/5
               p-8 lg:p-10
-              flex flex-col gap-4
+              flex flex-col gap-4 mt-16
             ">
               {/* About Image */}
               <Image
@@ -180,7 +186,7 @@ export default function About(){
                 alt="Psychologist Website Preview"
                 width={1200}
                 height={800}
-                className="w-full object-cover"
+                className="w-full object-cover mb-4"
               />
 
               {/*Under Image Border Tech-Stack */}
@@ -192,7 +198,7 @@ export default function About(){
               ">
 
                 
-                <h3 className="text-sm text-purple-400 tracking-wide mb-8">TECHNOLOGIES I WORK WITH</h3>
+                <h3 className="text-sm text-purple-400 tracking-wide mb-8">TECH STACK</h3>
                 
 
                 <div className="
@@ -220,8 +226,8 @@ export default function About(){
                   </div>
 
                   <div className="flex flex-col items-center gap-2 min-w-[70px]">
-                    <SiJavascript className="text-yellow-400" size={34} aria-hidden="true"/>
-                    <span className="text-sm text-neutral-300">JavaScript</span>
+                    <SiNextdotjs className="text-yellow-400" size={34} aria-hidden="true"/>
+                    <span className="text-sm text-neutral-300">Next.js</span>
                   </div>
 
                   <div className="flex flex-col items-center gap-2 min-w-[70px]">

@@ -31,7 +31,7 @@ export default function Hero(){
                 flex flex-col 
                 items-center
 
-                gap-8
+                gap-8 md:gap-12
 
                 overflow-hidden
                 
@@ -192,7 +192,7 @@ export default function Hero(){
 
                     gap-2
 
-                    text-5xl
+                    text-4xl
                     md:text-6xl
 
                     font-bold
@@ -206,114 +206,118 @@ export default function Hero(){
 
             <p
                 className="
-                text-md
+                text-sm
                 md:text-2xl
                 text-neutral-300
                 text-center
                 leading-relaxed
-                max-w-2xl
+                max-w-xs md:max-w-2xl 
                 mx-auto
                 "
-            >
-                I build modern, responsive web applications
+            >   
+                I build responsive websites and web applications
                 <br />
                 with {" "}
                 <span className="text-purple-400">
-                    powerful backends
+                    modern frontends
                 </span>{" "}
                 and{" "}
                 <span className="text-purple-400">
-                    intuitive frontends
+                    reliable backend systems
                 </span>.
             </p>
 
             <div className="flex sm:flex-row gap-4 ">
-                <a 
-                href="#projects"
-                className="
-                    flex items-center justify-center
-                    
-                    w-[160px]
-                    h-[55px]
-                    md:w-[180px]
+               <a
+                    href="#projects"
+                    className="
+                        flex items-center justify-center
+                        w-[150px] h-[55px]
+                        md:w-[180px]
+                        gap-4
 
-                    gap-6
+                        rounded-xl
+                        border border-white/10
+                        bg-purple-600
 
-                    border border-white/10
-                    rounded-xl
-                    bg-purple-600
-                    cursor-pointer
-
-                    hover:bg-purple-500
-                    hover:scale-105
-
-                    
-                ">
-                    <p className="">View My Work </p>
-                    <ArrowRight size={22}/>
+                        transition-all duration-300
+                        hover:bg-purple-500
+                        hover:scale-105
+                    "
+                >
+                    <span>Projects</span>
+                    <ArrowRight size={22} />
                 </a>
 
-                <a 
-                href="#contact"
-                className="
-                    flex items-center justify-center
+               <a
+                    href="#contact"
+                    className="
+                        flex items-center justify-center
+                        w-[150px] h-[55px]
+                        md:w-[180px]
+                        gap-2
 
-                    w-[160px]
-                    h-[55px]
-                    sm:w-[180px]
+                        rounded-xl
+                        border border-purple-700/50
 
-                    gap-6
-
-                    border border-purple-700/50
-                    rounded-xl
-                    cursor-pointer
-
-                    hover:bg
-                    hover:scale-105
-                    
-                ">
-                    <p className="">Contact Me</p>
-                    <ArrowUpRight size={22}/>
-                </a>
+                        transition-all duration-300
+                        hover:scale-105
+                    "
+                    >
+                        <span>Contact Me</span>
+                        <ArrowUpRight size={22} />
+                    </a>
             </div>
         
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-2 md:gap-4">
 
                 {/*GitHub*/}
                 <a 
                 href="https://github.com/Nestortheo"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex gap-2 items-center justify-center hover:text-purple-400">
-                    <SiGithub className="w-6 h-6 sm:w-7 sm:h-7" />
+                className=" 
+                    flex items-center justify-center gap-2
+                    transition-colors duration-300
+                    hover:text-purple-400
+                "
+                >
+                    <SiGithub className="w-6 h-6" />
                     <span>GitHub</span>
                 </a>
 
                 {/* Divider */}
-                <div className="h-6 w-px bg-purple-600/50" />
+                <div className="h-6 w-px bg-purple-600/30" />
 
                 <a 
                 href="https://www.linkedin.com/in/nestor-theodoridis-480032228/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex gap-2 items-center justify-center hover:text-purple-400">
-                    <FaLinkedin className="w-6 h-6 sm:w-7 sm:h-7" />
+                className=" 
+                    flex items-center justify-center gap-2
+                    transition-colors duration-300
+                    hover:text-purple-400
+                "
+                >
+                    <FaLinkedin className="w-6 h-6" />
                     <span>LinkedIn</span>
                 </a>
 
-                <div className="h-6 w-px bg-purple-600/50" />
+                <div className="h-6 w-px bg-purple-600/30" />
 
                 <a 
                 href="mailto:nestorastheo@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex gap-2 items-center justify-center hover:text-purple-400">
-                    <Mail className="w-6 h-6 sm:w-7 sm:h-7" />
+                className=" 
+                    flex items-center justify-center gap-2
+                    transition-colors duration-300
+                    hover:text-purple-400
+                "
+                >
+                    <Mail className="w-6 h-6 " />
                     <span>Email</span>
                 </a>
-
-                
-
             </div>
 
             <div 
