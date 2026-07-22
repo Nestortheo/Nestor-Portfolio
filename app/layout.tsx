@@ -35,7 +35,7 @@ export default function RootLayout({
         <Header />
 
         {/*Page Content*/}
-        <main className="pt-16">
+        <main className="pt-32 md:pt-12">
           {children}
         </main>
 
